@@ -1,0 +1,524 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 16227 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/My Unity Project/2D Platformer GB
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56322
+Successfully changed project path to: D:/Unity/My Unity Project/2D Platformer GB
+D:/Unity/My Unity Project/2D Platformer GB
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 109.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/My Unity Project/2D Platformer GB/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.011774 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 99.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Domain Reload Profiling:
+	ReloadAssembly (755ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (547ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (138ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005337 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\My Unity Project\2D Platformer GB\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\My Unity Project\2D Platformer GB\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 103.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.272 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1273ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1014ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (553ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (222.2 KB). Loaded Objects now: 4518.
+Memory consumption went from 151.3 MB to 151.1 MB.
+Total: 3.712700 ms (FindLiveObjects: 0.283700 ms CreateObjectMapping: 0.209000 ms MarkObjects: 3.077500 ms  DeleteObjects: 0.141800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 527799.830982 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/props-sliced/barrel.png
+  artifactKey: Guid(a29c023f27ad34e45852863a878d1984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/props-sliced/barrel.png using Guid(a29c023f27ad34e45852863a878d1984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531de7e7a1e800252e94250d08b35653') in 0.144305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/props-sliced/crate.png
+  artifactKey: Guid(078bb4e467b224fb98c30fb8faf940a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/props-sliced/crate.png using Guid(078bb4e467b224fb98c30fb8faf940a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0514fb76feff17086d02f2e7b5396961') in 0.014420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/props-sliced/wagon.png
+  artifactKey: Guid(cc1415a2dbac24b36ba3fb03933714c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/props-sliced/wagon.png using Guid(cc1415a2dbac24b36ba3fb03933714c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a377d683455a642bb3b7ffb14967031') in 0.015440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/props-sliced/street-lamp.png
+  artifactKey: Guid(4f21d02d3ca1c4521bbeffb4c158b72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/props-sliced/street-lamp.png using Guid(4f21d02d3ca1c4521bbeffb4c158b72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef93309fb628b2618242f6e6db2b2233') in 0.011033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.691764 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-corner.png
+  artifactKey: Guid(c2fd156aa51db412994527307ef76bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-corner.png using Guid(c2fd156aa51db412994527307ef76bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ffcbd76a9880f947b4c22dc64e9815') in 0.021594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-wall-b.png
+  artifactKey: Guid(92cd0cc78cdf24122bf3e380fe670b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-wall-b.png using Guid(92cd0cc78cdf24122bf3e380fe670b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79180b8d99591515c2bfcfc0d657f242') in 0.021686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/top-left-wood.png
+  artifactKey: Guid(2cc76c8c4b12247ccb7a15d03fef738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/top-left-wood.png using Guid(2cc76c8c4b12247ccb7a15d03fef738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba341f9710537327783d95feda947349') in 0.011058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/slope.png
+  artifactKey: Guid(c043f24078d794ba4a8c62481c41f102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/slope.png using Guid(c043f24078d794ba4a8c62481c41f102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a60f846b9a9315e893a1fa22f1d498e') in 0.017987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs.png
+  artifactKey: Guid(0c95c58df137b491cb57ba2b40550c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs.png using Guid(0c95c58df137b491cb57ba2b40550c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd4c1087a2d5f360c6ea12eadfde869') in 0.013447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/wall.png
+  artifactKey: Guid(ab7aa97c98c68405e918264e216b9dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/wall.png using Guid(ab7aa97c98c68405e918264e216b9dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7c39a1ae28459cb640c14a2a2e2bb4') in 0.014123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/shadow.png
+  artifactKey: Guid(e64e8af2f0a054a88845c5718b33b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/shadow.png using Guid(e64e8af2f0a054a88845c5718b33b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db3d52d5d8f25c655642c12d1f4aa04') in 0.017839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/wall-b.png
+  artifactKey: Guid(987628a106b254d74bdd14018a463290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/wall-b.png using Guid(987628a106b254d74bdd14018a463290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433b6be2aefddc8ad25b2ece9b0b214c') in 0.012514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/window.png
+  artifactKey: Guid(cae3fd9ef702e4c01a8eac69044d2213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/window.png using Guid(cae3fd9ef702e4c01a8eac69044d2213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11690894787b3d16875b5b6562545f5d') in 0.013832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/roof.png
+  artifactKey: Guid(e4e395b3e8b6242bb8cadcc8cc984dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/roof.png using Guid(e4e395b3e8b6242bb8cadcc8cc984dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57ee8795939a03973bf18ef9df2edd3') in 0.013999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground.png
+  artifactKey: Guid(4aa0a50e546194c289de175afdd9e097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground.png using Guid(4aa0a50e546194c289de175afdd9e097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ac454830a52b9c3e404d100bbdf0e1') in 0.013781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-wall-mirror-left.png
+  artifactKey: Guid(12611da468ae148e4b4de205a67dbac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-wall-mirror-left.png using Guid(12611da468ae148e4b4de205a67dbac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd82ca804156b40a515d49a09ec287a') in 0.012725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-left.png
+  artifactKey: Guid(9b3f5e3b1c9ca42abbd9656c79a457c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-left.png using Guid(9b3f5e3b1c9ca42abbd9656c79a457c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f463e221cc23e466ebf6b6343bb3719') in 0.013054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-wall-mirror.png
+  artifactKey: Guid(8d62eb9e1c1cf4f189a234c4d966ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-wall-mirror.png using Guid(8d62eb9e1c1cf4f189a234c4d966ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5462f930518dccd4ef338403f5fa95') in 0.016036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.924506 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-2.png
+  artifactKey: Guid(945b6607d85804ca6b5bc6f6d628e68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-2.png using Guid(945b6607d85804ca6b5bc6f6d628e68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86af0e6e298e98bd23fa62538da5f43') in 0.013836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-5.png
+  artifactKey: Guid(015cc9e6c3749435f8a1905cadfa8fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-5.png using Guid(015cc9e6c3749435f8a1905cadfa8fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1045e26e3e1a0f2b374cba7064f6016a') in 0.015031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.081888 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-1.png
+  artifactKey: Guid(7dae316cab1f54aeea0b7b52a1f0495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-1.png using Guid(7dae316cab1f54aeea0b7b52a1f0495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8199ba25d4c27055bb07615168fde1') in 0.044992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-3.png
+  artifactKey: Guid(246e0385cab41407fb2ba3829ad8fea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-3.png using Guid(246e0385cab41407fb2ba3829ad8fea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a1fb95fa4cf525c8068f84a4ddf144') in 0.030306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-4.png
+  artifactKey: Guid(0d0cae25406c447e3a85ab8e195ac041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-4.png using Guid(0d0cae25406c447e3a85ab8e195ac041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa71817ae239c80843b2f2e22ee87cdd') in 0.019241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.832295 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-idle/hat-man-idle-1.png
+  artifactKey: Guid(a6adcfb84d9054ac486ef7a10722243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-idle/hat-man-idle-1.png using Guid(a6adcfb84d9054ac486ef7a10722243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb45136b98322adf8534c12d845ba99c') in 0.014392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-idle/hat-man-idle-4.png
+  artifactKey: Guid(417f4d0e791d3450d9f1009ce4274222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-idle/hat-man-idle-4.png using Guid(417f4d0e791d3450d9f1009ce4274222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852e016c3bd5b8c4b21b3290534cdf30') in 0.012318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.888038 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-1.png
+  artifactKey: Guid(84c76ead687fd4774b85e6e8c56fe2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-1.png using Guid(84c76ead687fd4774b85e6e8c56fe2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea75471bf3d54142cb1252c36e84d20c') in 0.012482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-4.png
+  artifactKey: Guid(f44b19ddd98454d4b9dfcfa5db94d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-4.png using Guid(f44b19ddd98454d4b9dfcfa5db94d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e285e9fd376f41c6b3b7231caeed7c4') in 0.017067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-6.png
+  artifactKey: Guid(1df3bc45aab8c47cfb1bf1567210f563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-6.png using Guid(1df3bc45aab8c47cfb1bf1567210f563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072d1128a3e61e80b9f43a09e8a42243') in 0.012146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.066374 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/oldman-idle/oldman-idle-1.png
+  artifactKey: Guid(8b2704248651b4c8c84168c5fe44bcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/oldman-idle/oldman-idle-1.png using Guid(8b2704248651b4c8c84168c5fe44bcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd94628c35623d9df61c4d9ec64ded56') in 0.015913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/oldman-idle/oldman-idle-6.png
+  artifactKey: Guid(c1720c49a42c1419797441b6bf7366e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/oldman-idle/oldman-idle-6.png using Guid(c1720c49a42c1419797441b6bf7366e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f3c59dcc35fdd46e10b70dd7f533a0') in 0.016422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/oldman-idle/oldman-idle-5.png
+  artifactKey: Guid(b9f9b203297ca4faf905e9a37d6ed2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/oldman-idle/oldman-idle-5.png using Guid(b9f9b203297ca4faf905e9a37d6ed2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee92d8c251dc134146776b8e351c635') in 0.014703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/oldman-idle/oldman-idle-4.png
+  artifactKey: Guid(5574dec732d104ed9899876e79b21125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/oldman-idle/oldman-idle-4.png using Guid(5574dec732d104ed9899876e79b21125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ae4e019e4bd0c95a14b5272ca3fbb1') in 0.013463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.925006 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/oldman-walk/oldman-walk-1.png
+  artifactKey: Guid(8dfb0a387557b47da87726f9e1f915fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/oldman-walk/oldman-walk-1.png using Guid(8dfb0a387557b47da87726f9e1f915fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cd7ecee5b2179335c34e7f7877a610') in 0.013629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/oldman-walk/oldman-walk-8.png
+  artifactKey: Guid(8e1169f76ccbe4e81a8ea5d079a7a970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/oldman-walk/oldman-walk-8.png using Guid(8e1169f76ccbe4e81a8ea5d079a7a970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b293718eec417ed3cad8fb0eed6861b') in 0.014339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/oldman-walk/oldman-walk-12.png
+  artifactKey: Guid(90e8848554914437d9cea1f26cb93b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/oldman-walk/oldman-walk-12.png using Guid(90e8848554914437d9cea1f26cb93b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9d6774d2210eb175c0ef25ab2cf8f3') in 0.018289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/oldman-walk/oldman-walk-11.png
+  artifactKey: Guid(9c8ab015f0f7e4d048349366ee679547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/oldman-walk/oldman-walk-11.png using Guid(9c8ab015f0f7e4d048349366ee679547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fca6b5dd34c5c6a37ffa7261c9c9de') in 0.016503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.097489 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-idle/woman-idle-1.png
+  artifactKey: Guid(9028111435c6746acb60089b99efcf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-idle/woman-idle-1.png using Guid(9028111435c6746acb60089b99efcf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6df4f6396669e9f006270df5693025b') in 0.015978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-idle/woman-idle-4.png
+  artifactKey: Guid(a02d410614ef1458096ef6e6077bb9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-idle/woman-idle-4.png using Guid(a02d410614ef1458096ef6e6077bb9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64cdc67cba95a2530fb032b04200a122') in 0.013922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.049627 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-1.png
+  artifactKey: Guid(cf4eda157873a45cbba7857a92a403b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-1.png using Guid(cf4eda157873a45cbba7857a92a403b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29550867b41cf4479692d7293e4d1700') in 0.016516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-5.png
+  artifactKey: Guid(101eeb5d0bcf44dd58deba55044073fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-5.png using Guid(101eeb5d0bcf44dd58deba55044073fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed0dfba1b8d2d2cf135608746d4d0cf') in 0.020047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.995226 seconds.
+  path: Assets/Gothicvania-Town/Scenes/demo.unity
+  artifactKey: Guid(496692dcacd0d4ef6a92e1218aad3d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Scenes/demo.unity using Guid(496692dcacd0d4ef6a92e1218aad3d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6167bf9b1a35c506e8532887698657') in 0.001556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.279411 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c23e514d24f6b65fe96946cd87fc526') in 0.001492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.890579 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffac74579b662cd26b610b1565cbb73') in 0.001608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.849704 seconds.
+  path: Assets/Gothicvania-Town/Scenes/demoSettings.lighting
+  artifactKey: Guid(444c5914f321b7e47b1716667354a069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Scenes/demoSettings.lighting using Guid(444c5914f321b7e47b1716667354a069) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '5a7fba40313d8d235a26a01dd8c8bad3') in 0.005484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.756851 seconds.
+  path: Assets/Pixel Adventure 1/Scenes/Demo.unity
+  artifactKey: Guid(a28dbe97a23035549ac0cd5459ba57bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Scenes/Demo.unity using Guid(a28dbe97a23035549ac0cd5459ba57bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7131baf8835470362e5632e9afb55274') in 0.001384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.365096 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Blue.png
+  artifactKey: Guid(8049ea91a9d5fca4dab4024c0915dbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Blue.png using Guid(8049ea91a9d5fca4dab4024c0915dbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea58458d0afac58998c5a4709f3a8e17') in 0.020248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Gray.png
+  artifactKey: Guid(ffc80c129c9aca14c9fb4dbeba0e10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Gray.png using Guid(ffc80c129c9aca14c9fb4dbeba0e10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461289243dd8c3ac3ee6c14a95a55455') in 0.022275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Purple.png
+  artifactKey: Guid(248611cc7bb8d85448933cee393ce41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Purple.png using Guid(248611cc7bb8d85448933cee393ce41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58336a0e055eeaa6e8fdbc3b467ae61') in 0.018641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Pink.png
+  artifactKey: Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Pink.png using Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa92a23ade634c1b22aeb71bf1f20a19') in 0.016467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.240606 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Items/Boxes/Box1/Hit (28x24).png
+  artifactKey: Guid(e3ec232265f6ad147aa2aa71472516d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Items/Boxes/Box1/Hit (28x24).png using Guid(e3ec232265f6ad147aa2aa71472516d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1cfbd48d3f1c0d8bb9bfc949e21389') in 0.020403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.235500 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Fall (32x32).png
+  artifactKey: Guid(88794fc5febd16e40a94cacbf542b65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Fall (32x32).png using Guid(88794fc5febd16e40a94cacbf542b65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46630989d17db97ca6ec86226e3c9a0a') in 0.019096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Idle (32x32).png
+  artifactKey: Guid(3750f45c844123341b9a777a96cb1eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Idle (32x32).png using Guid(3750f45c844123341b9a777a96cb1eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633f92981f2b85b4c85bab4593e8bb43') in 0.087699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.831564 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Fall (32x32).png
+  artifactKey: Guid(b6d14bcb8d9dbb349beb9d3619096732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Fall (32x32).png using Guid(b6d14bcb8d9dbb349beb9d3619096732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053aa41c142402ac6ccc47e5cfcf8761') in 0.015849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Run (32x32).png
+  artifactKey: Guid(e362bc6a7c79fce4db16d145d43a5550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Run (32x32).png using Guid(e362bc6a7c79fce4db16d145d43a5550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2148178b6d5ddc0a8395fa405a5c622e') in 0.099185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.739979 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Fall (32x32).png
+  artifactKey: Guid(1a6feec238b9a99499082bb755fa32df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Fall (32x32).png using Guid(1a6feec238b9a99499082bb755fa32df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82278aa45ecf9ce8d265b5d5c955ed6a') in 0.014359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Run (32x32).png
+  artifactKey: Guid(cdb0cc8ca9aac2a4d84c6aa3c1cbf52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Run (32x32).png using Guid(cdb0cc8ca9aac2a4d84c6aa3c1cbf52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77f06f04e8f24389cd50fa5ccb11528') in 0.078413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.520633 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png
+  artifactKey: Guid(5c8b2ada1a819a54e8c051165c738f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png using Guid(5c8b2ada1a819a54e8c051165c738f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d440da3ef477e25acac0aa22ecac68') in 0.014350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png
+  artifactKey: Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png using Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435e722219a81e41fe1faee9f6e661a4') in 0.070755 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
