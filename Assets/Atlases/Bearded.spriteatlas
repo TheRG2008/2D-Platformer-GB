@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bearded
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 6050d2feb234b4548aa74aee7650baa6, type: 3}
+    - {fileID: 102900000, guid: 003dea1224276412a906c771ac4bf1ab, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 35140b321bc564c93876fe5a7bb532dc, type: 3}
+  - {fileID: 21300000, guid: b0b63da2b52704d65a05fb59f335baf3, type: 3}
+  - {fileID: 21300000, guid: 0d0cae25406c447e3a85ab8e195ac041, type: 3}
+  - {fileID: 21300000, guid: 246e0385cab41407fb2ba3829ad8fea3, type: 3}
+  - {fileID: 21300000, guid: 015cc9e6c3749435f8a1905cadfa8fb3, type: 3}
+  - {fileID: 21300000, guid: 945b6607d85804ca6b5bc6f6d628e68c, type: 3}
+  - {fileID: 21300000, guid: e5d48ddba917147d4984d60c82de0138, type: 3}
+  - {fileID: 21300000, guid: 7dae316cab1f54aeea0b7b52a1f0495d, type: 3}
+  - {fileID: 21300000, guid: e4ab738c3a9c842b69fa93cbbff0ea53, type: 3}
+  - {fileID: 21300000, guid: b7c237ced05de4c44a8337e4c9d5da9f, type: 3}
+  - {fileID: 21300000, guid: dec23d3f1b157493ea928ad647f275c2, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - bearded-walk-6
+  - bearded-walk-5
+  - bearded-walk-4
+  - bearded-walk-3
+  - bearded-idle-5
+  - bearded-idle-2
+  - bearded-idle-3
+  - bearded-walk-1
+  - bearded-idle-1
+  - bearded-idle-4
+  - bearded-walk-2
+  m_RenderDataMap: {}
+  m_Tag: Bearded
+  m_IsVariant: 0
